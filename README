@@ -1,4 +1,4 @@
-Simple bot writen in python using the discord.py library
+Simple bot writen in python 3.4 using the discord.py library 
 https://github.com/Rapptz/discord.py
 
 This bot changes the color of a role when ever a memeber of that role sends a message. Curently cycles through red and grren. 
