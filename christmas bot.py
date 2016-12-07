@@ -25,6 +25,10 @@ def on_message(message):
                 x.colour = x.colour.green()
                 yield from client.edit_role(x.server, x)
                 break
+            if x.colour.value != 15158332 and x.colour.value != 3066993:
+                x.colour = x.colour.green()
+                yield from client.edit_role(x.server, x)
+                break
 
 
 
