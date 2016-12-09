@@ -16,7 +16,7 @@ def on_ready():
 def on_message(message):
      rolelist = message.author.roles
      for x in rolelist:
-        if str(x) == "#insert name of role here eg Mods":
+        if str(x) == "###": #Insert Role Name Here
             if x.colour.value == 3066993:
                 x.colour = x.colour.red()
                 yield from client.edit_role(x.server, x)
@@ -33,4 +33,4 @@ def on_message(message):
 
 
             
-client.run('#Insert Token Here#')
+client.run('###') #insert token here
