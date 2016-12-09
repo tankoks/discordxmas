@@ -1,6 +1,12 @@
 Simple bot writen in python 3.4 using the discord.py library 
 https://github.com/Rapptz/discord.py
 
-This bot changes the color of a role when ever a memeber of that role sends a message. Curently cycles through red and grren. 
-
 To run: install the discord.py library, edit the role name and token, run.
+
+Two bots are included:
+Message Based
+  Message Based can abuse API limits and result in an IP ban of the bot.
+  This bot changes the color of a role when ever a memeber of that role sends a message. Curently cycles through red and grren. 
+Timer Based 
+  Cycles colors based on a random interval between 5 and 10 seconds.
+  Timer Based should not be a problem with API limits. 
